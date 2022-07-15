@@ -1,0 +1,26 @@
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    background-image: url(images/donation6.jpg);
+    padding-bottom: 450px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.top-banner h1 {
+    font-size: 70px;
+    padding: 190px 30px 0px 15px;
+}
+
+.top-banner h3 {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
