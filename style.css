@@ -24,3 +24,39 @@ body {
     font-weight: 100;
     padding-bottom: 20px;
 }
+
+.donate-today {
+    text-align: center;
+}
+
+.taka-number {
+    font-size: 25px;
+    font-family: oswald;
+    font-weight: 200;
+    color: darkgrey;
+    display: inline-block;
+    padding: 25px;
+}
+
+.box-taka {
+    color: red;
+    background-image: linear-gradient(ivory, pink, azure);
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.donate-today p {
+    font-family: brush script;
+}
+
+#other-amount {
+    font-size: 25px;
+    color: dimgray;
+    text-decoration: underline;
+    text-decoration-color: dimgray;
+    text-decoration-style: dashed;
+}
