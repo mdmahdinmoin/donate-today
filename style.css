@@ -1,4 +1,3 @@
-html,
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -22,11 +21,30 @@ body {
 
 .top-banner h3 {
     font-weight: 100;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+}
+
+.top-banner a {
+    color: white;
+    background-image: linear-gradient(orange, red, yellow);
+    padding: 20px;
+    font-weight: 700;
+    margin: 75px;
+    border-radius: 10px;
 }
 
 .donate-today {
     text-align: center;
+    margin-bottom: 150px;
+}
+
+.donate-today a {
+    color: white;
+    background-image: linear-gradient(orange, red, yellow);
+    padding: 20px;
+    font-weight: 700;
+    margin: 75px;
+    border-radius: 10px;
 }
 
 .taka-number {
@@ -59,6 +77,7 @@ body {
     text-decoration: underline;
     text-decoration-color: dimgray;
     text-decoration-style: dashed;
+    padding-bottom: 50px;
 }
 
 .donation-plan3 {
@@ -71,6 +90,7 @@ body {
 
 .donation-plan {
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .donation-plan h1 {
@@ -103,4 +123,69 @@ body {
     padding: 25px;
     border-radius: 10px;
     margin-left: 20px;
+}
+
+.bonus-section {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+#bonus-part1 {
+    margin-left: 100px;
+}
+
+#bonus-part2 {
+    margin-right: 100px;
+}
+
+.methodC {
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    border-top: 30px solid white;
+}
+
+.get-my-update {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 80px;
+}
+
+.form-section {
+    height: 100px;
+    width: 800px;
+    background-color: #FFF4D6;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 6%;
+    padding-top: 6%;
+}
+
+#email {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#subscribe {
+    background-color: #FF5959;
+    padding: 10PX;
+    border-radius: 5px;
+}
+
+.last-word {
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+}
+
+.last-word h1 {
+    color: #FF5959;
+    font-family: cursive;
+}
+
+.last-word p {
+    color: white;
 }
