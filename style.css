@@ -60,3 +60,47 @@ body {
     text-decoration-color: dimgray;
     text-decoration-style: dashed;
 }
+
+.donation-plan3 {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.donation-plan {
+    text-align: center;
+}
+
+.donation-plan h1 {
+    font-size: 60px;
+    padding-top: 65px;
+}
+
+#donate-plan-mainp {
+    font-family: brush script;
+    font-size: 22px;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+#plan1 {
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#plan2 {
+    background-color: mistyrose;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#plan3 {
+    background-color: moccasin;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
